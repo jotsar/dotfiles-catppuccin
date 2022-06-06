@@ -10,8 +10,8 @@ pip install psutil
 
 sleep 5
 
-mv ~/dotfiles-catppuccin/bin/* ~/.local/bin/
-mv ~/dotfiles-catppuccin/wallpaper/* ~/Pictures/wallpaper
-mv ~/dotfiles-catppuccin/config/* ~/.config/
+cp -r ~/dotfiles-catppuccin/bin/* ~/.local/bin/
+cp -r ~/dotfiles-catppuccin/wallpaper/* ~/Pictures/wallpaper
+cp -r ~/dotfiles-catppuccin/config/* ~/.config/
 
 betterlockscreen -u ~/Pictures/wallpaper/evening-sky.png
