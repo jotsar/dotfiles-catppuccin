@@ -5,3 +5,4 @@ https://github.com/catppuccin/firefox
 https://github.com/catppuccin/sddm
 https://github.com/catppuccin/grub
 https://github.com/catppuccin/discord
+https://github.com/catppuccin/cursors
