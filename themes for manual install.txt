@@ -1,0 +1,8 @@
+https://github.com/catppuccin/github
+https://github.com/catppuccin/zsh-syntax-highlighting
+https://github.com/catppuccin/btop
+https://github.com/catppuccin/firefox
+https://github.com/catppuccin/sddm
+https://github.com/catppuccin/grub
+https://github.com/catppuccin/dunst
+https://github.com/catppuccin/discord
