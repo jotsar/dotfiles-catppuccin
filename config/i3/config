@@ -50,6 +50,8 @@ bindsym $mod+c exec --no-startup-id /home/js/.local/bin/togglepicom
 #bindsym $mod+Shift+bracketleft move workspace to output left
 #bindsym $mod+Shift+bracketright move workspace to output right
 
+# Shutdown keybind 
+bindsym $super+$mod+p exec --no-startup-id shutdown -P --no-wall now
 bindsym $mod+x move workspace to output right
 
 
@@ -160,6 +162,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 assign [class="discord"] $ws3
 assign [class="firefox"] $ws2
 assign [class="KeePassXC"] $ws6
+assign [class="Steam"] $ws7
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -213,6 +216,7 @@ exec_always --no-startup-id autotiling
 exec --no-startup-id flameshot
 exec --no-startup-id lxpolkit
 exec --no-startup-id picom
-exec --no-startup-id discord-canary
+exec --no-startup-id discord
 exec --no-startup-id firefox
 exec --no-startup-id kitty
+
